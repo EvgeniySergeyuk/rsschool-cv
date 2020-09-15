@@ -1,0 +1,52 @@
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../img/background.jpg') no-repeat center top / cover;            
+}
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    border: 3px solid #2F4F4F;    
+    opacity: .9;
+    text-align: center;
+}
+
+.photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    border-radius: 50%;  
+    border: 5px solid #2F4F4F;
+}
+.name {    
+    padding: 0;
+    margin: 0; 
+    font-weight: bold;
+    font-size: 50px;
+    background-color: #2F4F4F;
+    color: #ffffff;
+    mix-blend-mode: multiply;
+    text-shadow: 2px 2px 4px black;
+}
+p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+h2 {
+    padding: 0;
+    margin: 0; 
+    background-color: #2F4F4F;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px black;           
+}
+
+footer .container {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #2F4F4F;
+    color: #ffffff;
+    mix-blend-mode: multiply;
+    text-shadow: 2px 2px 4px black;
+}
